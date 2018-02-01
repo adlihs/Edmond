@@ -36,15 +36,15 @@ library("berryFunctions") #For timer() function
 
 ###VARIABLES PARA INICIALIZAR EL SERVICIO
 Sys.setenv(MSCS_TEXTANALYTICS_URL="https://westcentralus.api.cognitive.microsoft.com/text/analytics/v2.0/")
-Sys.setenv(MSCS_TEXTANALYTICS_KEY="2c7ebc539bde4944a64d22506f352497")
+Sys.setenv(MSCS_TEXTANALYTICS_KEY="xxxxxx")
 
 ###INICIALIZAR EL SERVICIO
 textaInit()
 
 #######FACEBOOK ACCESS#############
 ###FB authentication
-app_id <- "499942653488648"
-app_secret <- "cb8fb739eeb056297ee5d4d859ca4e4a"  
+app_id <- "xxxx"
+app_secret <- "xxxx"  
 options("browser" = NULL)
 fb_oauth <- fbOAuth(app_id, app_secret, extended_permissions = FALSE,legacy_permissions = FALSE)
 
